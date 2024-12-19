@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+[x-cloak] {
+    display: none;
+}
+
+.main-container {
+    font-family: 'Lato';
+    width: auto;
+}
+
+.ck-content {
+    font-family: 'Lato';
+    line-height: 1.6;
+    word-break: break-word;
+}
+
+.editor-container_classic-editor .editor-container__editor {
+    width: 100%;
+    /* min-width: 795px; */
+}
